@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de mots de passe</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container-mdp">
+        <h1>Générateur de mots de passe</h1>
+            <div class="mdp-box">
+                <input type="text" id="password" readonly>
+            </div>
+            <div class="buttons">
+                <button class="buttons1" onclick="getPassword()">Générer</button>
+                <button class="buttons2" onclick="copyPassword()" class="copie">Copier <img src="./assets/img/icone-copier.svg" alt="Icône copié"></button>
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
